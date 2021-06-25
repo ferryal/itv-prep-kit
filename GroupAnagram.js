@@ -12,3 +12,11 @@ return Object.values(result);
 }
 
 console.log(groupAnagrams(['eat', 'tea', 'tan', 'ate', 'nat', 'bat']))
+const words = ["katak", "takak", "kasur", "rusak", "surak", "foo", "bar"];
+console.log(groupAnagrams(words))
+// result sama aja 
+// [ [ 'eat', 'tea', 'ate' ], [ 'tan', 'nat' ], [ 'bat' ] ]
+// [ [ 'katak', 'takak' ],
+//   [ 'kasur', 'rusak', 'surak' ],
+//   [ 'foo' ],
+//   [ 'bar' ] ]
